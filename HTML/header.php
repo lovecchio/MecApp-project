@@ -12,7 +12,7 @@
                 
             </div>
 
-            <div id="buscador">
+            <div id="buscador"">
 <form>
   <input type="text" name="search" placeholder="Search..">
 </form>
