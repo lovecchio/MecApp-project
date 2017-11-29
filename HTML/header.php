@@ -1,11 +1,11 @@
         <div id="header">
             <div id="logo">
-                <img  id="logo_img" src="MecApp.png">
+                <img  id="logo_img" src="../IMG/MecApp.png">
             </div>
             <div id="menu">
-                <div id="favoritos"><img  id="star" src="star.png"></div>
+                <div id="favoritos"><img  id="star" src="../IMG/star.png"></div>
                 <div id="perfil">
-                        <img  id="user" src="user.png">
+                        <img  id="user" src="../IMG/user.png">
                 </div>
                 <div id="logout"><a href="#">Cerrar sessión</a></div>
             

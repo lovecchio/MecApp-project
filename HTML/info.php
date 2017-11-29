@@ -34,7 +34,7 @@ and open the template in the editor.
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="1.jpg" alt="Los Angeles">
+                        <img src="../IMG/1.jpg" alt="Los Angeles">
                         <div class="carousel-caption">
                             <h1>Propósito a los clientes</h1>
                             <p>El proyecto consiste...</p>
@@ -48,11 +48,11 @@ and open the template in the editor.
                     </div>
 
                     <div class="item">
-                        <img src="2.jpg" alt="Chicago">
+                        <img src="../IMG/2.jpg" alt="Chicago">
                     </div>
 
                     <div class="item">
-                        <img src="3.jpg" alt="New York">
+                        <img src="../IMG/3.jpg" alt="New York">
                     </div>
                 </div>
 
@@ -77,7 +77,7 @@ and open the template in the editor.
 
                         Etiam facilisis orci lorem.</p></div>
                 <div class="rightinfo">
-                    <img src="iphone.png">
+                    <img src="../IMG/iphone.png">
                 </div>
             </div>
 
