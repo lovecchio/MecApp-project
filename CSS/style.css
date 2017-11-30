@@ -23,7 +23,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
-body {
+@font-face {
+  font-family: "San Francisco Display Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.eot?#iefix) format("embedded-opentype"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff2) format("woff2"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff) format("woff"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.ttf) format("truetype"), url("fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.svg#San Francisco Display Medium") format("svg")
+}
+
+body{
+    font-family: "San Francisco Display Medium";
     line-height: 1;
     background-color: #999999 /*#d7ddea*/;
     width: 100%;
@@ -44,6 +52,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
 #buscador{
     padding-left: 5%;
     padding-right: 7%;
@@ -63,7 +72,7 @@ table {
     width: 100%;
     padding-left: 5%;
 
-    background-color: #333333   /*#3b5998*/;
+    background-color: #333;   /*#3b5998*/;
     padding-top: 8px;
 
 
@@ -76,7 +85,7 @@ table {
 
 }
 body {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    
     padding-top: 48px;
 }
 
@@ -190,7 +199,7 @@ h3{
 .info{
 
     padding: 5px 20px 20px 20px;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+     
 
     padding-top: 10px;
     width: 100%;
