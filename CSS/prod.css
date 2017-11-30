@@ -4,21 +4,23 @@
 
     color: white;
     display: inline-block;
-
+   
 
 }
 #inner-prodbox{
 
-    margin: 1px; 
-    background-color: #333333;
-    border-radius: 10px;
+    
+    background-color: white;
+  border-radius: 1px;
     padding: 10px;
+     margin: 0.5px;
 
 }
 #prodimg{
     width: 100%;
 }
 #prodname{
+    color: brown;
     padding: 10px 10px 10px 0;
 }
 #prodmodel{
@@ -29,17 +31,28 @@
 #proddesc{
     font-size: 12px;
     margin-top: 5px;
-    background-color: #555555;
+    color: grey;
     padding: 2px;
-    border-radius: 2px;
+    
 }
 .right.carousel-control, .left.carousel-control {
     opacity: 0;
     filter:alpha(opacity=0); /* IE support */
 }
 @media screen and (max-width: 800px){
+    body{
+        font-size: 10px;
+      
+    }
     #prodbox{
         width: 33%;
+    }
+    #inner-prodbox{
+        padding: 3px;
+        
+    }
+    #proddesc{
+        font-size: 10px;
     }
     
 }
@@ -49,9 +62,6 @@
     }
     
 }
-@media screen and (max-width: 400px){
-    #prodbox{
-        width: 100%;
-    }
+
     
 }
